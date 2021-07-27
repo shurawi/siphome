@@ -23,6 +23,36 @@ img {
   padding: 0;
 }
 
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter-SemiBold";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+}
+
+
+.wrap {
+  width: 375px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
