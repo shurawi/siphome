@@ -48,6 +48,12 @@ ul {
   src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Inter-MediumItalic";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Inter-MediumItalic.woff2") format("woff2"), url("../fonts/Inter-MediumItalic.woff") format("woff");
+}
 
 .wrap {
   width: 375px;
