@@ -1,0 +1,80 @@
+.update {
+  height: 2035px;
+  margin: 0 auto;
+  background: url("../img/udate-pic-1.png") no-repeat,  url("../img/udate-pic-3.png") no-repeat, url("../img/udate-pic-2.png") no-repeat, url("../img/update-bg.png") no-repeat;
+  background-position: left 0px top 188px, left 0px top 342px, right 0px top 222px, left 0px top 415px;
+}
+
+.update__text {
+  text-align: center;
+}
+
+.update__span {
+  font-size: 15px;
+  line-height: 21px;
+  font-family: "Inter-Bold";
+  text-transform: uppercase;
+  letter-spacing: 0.6em;
+  color: #1C57C9;
+}
+
+.update__head {
+  margin: 13px 28px 0;
+  font-size: 32px;
+  line-height: 45px;
+  font-family: "Inter-Bold";
+  color: #000000;
+}
+
+.update__list {
+  margin-top: 506px;
+  text-align: center;
+}
+
+.update__item {
+  margin-bottom: 36px;
+
+  &--monitor {
+    background: url("../img/icon-monitor.svg") no-repeat;
+    background-position: left 50% top 40px;
+  }
+
+  &--maintenance {
+    background: url("../img/icon-maintenance.svg") no-repeat;
+    background-position: left 50% top 40px;
+  }
+
+  &--repair {
+    background: url("../img/icon-repair.svg") no-repeat;
+    background-position: left 50% top 40px;
+  }
+
+  &--replace {
+    background: url("../img/icon-replace.svg") no-repeat;
+    background-position: left 50% top 40px;
+  }
+}
+
+.update__title {
+  padding-top: 124px;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Inter-Bold";
+  color: #ffffff;
+}
+
+.update__para {
+  margin: 16px 27px 0;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Inter-Regular";
+  color: #ffffff;
+
+  &--monitor {
+    padding-bottom: 40px;
+  }
+
+  &--maintenance {
+    padding-bottom: 16px;
+  }
+}
