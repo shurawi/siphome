@@ -1,0 +1,101 @@
+.contact {
+  padding: 162px 27px 0;
+  background: url("../img/contact-bg.png") no-repeat;
+  background-position: left 27px top 391px;
+}
+
+.contact__text {
+  text-align: center;
+}
+
+.contact__span {
+  font-size: 15px;
+  line-height: 21px;
+  font-family: "Inter-Bold";
+  text-transform: uppercase;
+  letter-spacing: 0.6em;
+  color: #1C57C9;
+}
+
+.contact__head {
+  margin-top: 13px;
+  font-size: 32px;
+  line-height: 45px;
+  font-family: "Inter-Bold";
+  color: #000000;
+}
+
+.contact__form {
+  margin-top: 426px;
+}
+
+.contact__item {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.contact__label {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: "Inter-Regular";
+  color: #262B35;
+}
+
+.contact__input {
+  width: 100%;
+  padding: 10px 0 10px 20px;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 3px;
+  font-family: "Inter-Regular";
+  color:#CCCCCC;
+  border: 1px solid #CCCCCC;
+
+  &::placeholder {
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 3px;
+    font-family: "Inter-Regular";
+    color:#CCCCCC;
+  }
+}
+
+.concat__select {
+  padding: 10px 0 10px 20px;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 3px;
+  font-family: "Inter-Regular";
+  color:#CCCCCC;
+  border: 1px solid #CCCCCC;
+}
+
+.contact__textarea {
+  padding: 10px 0 10px 20px;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 3px;
+  font-family: "Inter-Regular";
+  color:#CCCCCC;
+  border: 1px solid #CCCCCC;
+  resize: none;
+}
+
+.select__btn {
+  width: 100%;
+  margin-top: 26px;
+  padding: 11px 0 12px 0;
+  font-size: 16px;
+  line-height: 21px;
+  border-radius: 3px;
+  font-family: "Inter-Bold";
+  text-align: center;
+  color:#ffffff;
+  background-color: #1ECE7A;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
