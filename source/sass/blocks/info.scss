@@ -1,0 +1,49 @@
+.info {
+  margin-bottom: 32px;
+}
+
+.info__container {
+  text-align: center;
+}
+
+.info__title {
+  margin-bottom: 20px;
+}
+
+.info__list {
+  margin-bottom: 63px;
+}
+
+.info__link {
+  font-size: 18px;
+  line-height: 47px;
+  font-family: "Inter-Regular";
+  text-decoration: none;
+  color: #606C84;
+
+  &:hover {
+    font-family: "Inter-SemiBold";
+    color: #1C57C9;
+  }
+}
+
+.info__link--social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info__img {
+  margin-right: 16px;
+}
+
+.info__copyright {
+  text-align: center;
+}
+
+.info__para {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Inter-Regular";
+  color: #606C84;
+}
