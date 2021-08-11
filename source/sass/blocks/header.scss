@@ -1,16 +1,14 @@
 
-.header {
-  height: 812px;
-  /*padding-bottom: 119px;*/
+/*.header {
+  padding-bottom: 119px;
   background: url("../img/header-dot-bg.png") no-repeat, url("../img/header-bg.jpg") no-repeat, rgba(96, 108, 132, 1);
   background-position: bottom 80px left 0, bottom 72px left 0, 0;
   background-blend-mode: overlay;
-}
 
-.header--closeMenu {
-  background: url("../img/header-dot-bg.png") no-repeat, url("../img/header-bg.jpg") no-repeat;
-  background-position: bottom -6px left 0, bottom 55px left 0;
-}
+  @media (min-width: $tablet-width) {
+    height: 834px;
+  }
+}*/
 
 .header__container {
   padding-bottom: 84px;
@@ -18,16 +16,27 @@
 }
 
 .header__container--closeMenu {
-  padding-bottom: 5px;
-  background: #1C57C9;
+  height: 805px;
+  padding: 0;
+  background: url("../img/header-dot-bg-mobile.png") no-repeat, url("../img/header-bg-mobile.jpg") no-repeat;
+  background-position: bottom -6px left 0, bottom 55px left 0;
+
+  @media (min-width: $tablet-width) {
+    background: url("../img/header-bg-oval-mobile.svg") no-repeat, url("../img/header-dot-bg-tablet.png") no-repeat, url("../img/header-bg-tablet.jpg") no-repeat;
+    background-position: top 15px left 411px, bottom 6px left 0, left 0 top 0;
+  }
 }
 
 .header__controls {
   margin: 0 20px;
-  padding: 37px 0;
+  padding: 34px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 30px;
+  }
 }
 
 .header__logo {
@@ -110,12 +119,31 @@
   display: block;
   color: #ffffff;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    margin: 60px 118px 0 76px;
+
+  }
 }
 
 .header__head {
   font-size: 42px;
   line-height: 59px;
   font-family: "Inter-Bold";
+
+  @media (min-width: $tablet-width) {
+    margin: 0 20px;
+    font-size: 55px;
+    line-height: 72px;
+  }
+}
+
+.header__head br {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: initial;
+  }
 }
 
 .header__para {
@@ -123,6 +151,12 @@
   font-size: 18px;
   line-height: 29px;
   font-family: "Inter-Regular";
+
+  @media (min-width: $tablet-width) {
+    margin: 36px 0 60px;
+    font-size: 20px;
+    line-height: 32px;
+  }
 }
 
 .header__buttons {
@@ -133,6 +167,10 @@
 
 .header__buttons--openMenu {
   margin-top: 0;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 281px;
+  }
 }
 
 .header__btn {
@@ -156,6 +194,10 @@
 
 .header__btn--start {
   padding: 15px 28px;
+
+  @media (min-width: $tablet-width) {
+    padding: 13px 21px;
+  }
 }
 
 .header__btn--sign {
@@ -163,7 +205,11 @@
 }
 
 .header__btn--more {
-  padding: 13px 22.5px;
+  padding: 15px 23px;
   color: #ffffff;
   border: 1px solid #ffffff;
+
+  @media (min-width: $tablet-width) {
+    padding: 13px 21px;
+  }
 }
