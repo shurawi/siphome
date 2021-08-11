@@ -1,6 +1,11 @@
 .features {
   margin-bottom: 224px;
   padding: 62px 27px 0;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 168px;
+    padding: 60px 76px 0;
+  }
 }
 
 .features__promo {
@@ -9,15 +14,28 @@
   font-family: "Inter-MediumItalic";
   text-align: center;
   color: #606C84;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 32px;
+  }
 }
 
 .features__pic {
   margin-top: 60px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 96px;
+  }
 }
 
 .features__text {
   margin: 48px 0;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    margin: 96px 20px 60px;
+  }
 }
 
 .features__span {
@@ -34,7 +52,12 @@
   font-size: 32px;
   line-height: 45px;
   font-family: "Inter-Bold";
-  color: #000000;
+  color: #262B35;
+
+  @media (min-width: $tablet-width) {
+    font-size: 42px;
+    line-height: 59px;
+  }
 }
 
 .features__para {
@@ -43,6 +66,13 @@
   line-height: 29px;
   font-family: "Inter-Regular";
   color: #606C84;
+}
+
+.features__list {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .features__item {
@@ -68,6 +98,15 @@
     background: url("../img/icon-service.svg") no-repeat;
     background-position: top 0 left 50%;
   }
+
+  @media (min-width: $tablet-width) {
+    width: 331px;
+    margin-bottom: 36px;
+
+    &:not(:nth-child(2n)) {
+      margin-right: 20px;
+    }
+  }
 }
 
 .features__title {
@@ -83,4 +122,8 @@
   padding-bottom: 23px;
   font-size: 15px;
   line-height: 24px;
+
+  @media (min-width: $tablet-width) {
+    margin: 16px 26px 23px;
+  }
 }
