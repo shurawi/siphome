@@ -5,6 +5,8 @@
   @media (min-width: $tablet-width) {
     margin-bottom: 168px;
     padding: 60px 76px 0;
+    background: url("../img/features-dot-tablet.svg") no-repeat;
+    background-position: top 110px right 4px;
   }
 }
 
@@ -16,6 +18,7 @@
   color: #606C84;
 
   @media (min-width: $tablet-width) {
+    margin: 0 20px;
     font-size: 20px;
     line-height: 32px;
   }
