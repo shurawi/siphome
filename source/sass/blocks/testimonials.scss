@@ -22,6 +22,12 @@
   line-height: 45px;
   font-family: "Inter-Bold";
   color: #000000;
+
+  @media (min-width: $tablet-width) {
+    margin: 16px 195px 0;
+    font-size: 42px;
+    line-height: 59px;
+  }
 }
 
 .testimonials__slider {
@@ -29,6 +35,10 @@
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 108px;
+  }
 }
 
 .testimonials__item {
@@ -48,6 +58,21 @@
   &:last-child {
     margin-right: 16px;
   }
+
+  @media (min-width: $tablet-width) {
+    min-width: 540px;
+    margin: 20px 32px 48px;
+    text-align: left;
+    background-position: right 40px bottom 40px;
+
+    &:first-child {
+      margin-left: 64px;
+    }
+
+    &:last-child {
+      margin-right: 64px;
+    }
+  }
 }
 
 .testimonials__pic {
@@ -58,10 +83,19 @@
   height: 74px;
   margin: 0 auto;
   border-radius: 50px;
+
+  @media (min-width: $tablet-width) {
+    top: -10px;
+    right: -245px;
+  }
 }
 
 .testimonials__quote {
   padding: 0 20px 0;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 90px 0 30px;
+  }
 }
 
 .testimonials__blockquote {
@@ -70,6 +104,12 @@
   line-height: 29px;
   font-family: "Inter-Regular";
   color: #000000;
+
+  @media (min-width: $tablet-width) {
+    margin: 30px 0 42px;
+    font-size: 20px;
+    line-height: 32px;
+  }
 }
 
 .testimonals__sign {
@@ -77,6 +117,10 @@
   line-height: 27px;
   font-family: "Inter-Bold";
   color: #262B35;
+
+  @media (min-width: $tablet-width) {
+    line-height: 24px;
+  }
 }
 
 .testimonals__cite {
@@ -87,4 +131,9 @@
   font-family: "Inter-Regular";
   font-style: normal;
   color: #606C84;
+
+  @media (min-width: $tablet-width) {
+    margin: 11px 0 33px;
+    line-height: 24px;
+  }
 }

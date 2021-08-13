@@ -1,5 +1,9 @@
 .services {
   margin-bottom: 215px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 300px;
+  }
 }
 
 .services__text {
@@ -23,7 +27,7 @@
   color: #000000;
 
   @media (min-width: $tablet-width) {
-    margin-top: 16px;
+    margin: 16px 135px 0;
     font-size: 42px;
     line-height: 59px;
   }
