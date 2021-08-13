@@ -21,6 +21,12 @@
   line-height: 45px;
   font-family: "Inter-Bold";
   color: #000000;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 16px;
+    font-size: 42px;
+    line-height: 59px;
+  }
 }
 
 .services__title {
@@ -29,6 +35,16 @@
   line-height: 29px;
   font-family: "Inter-Regular";
   color: #606184;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 64px;
+  }
+}
+
+.services__pic {
+  @media (min-width: $tablet-width) {
+    margin: 0 101px 0 59px;
+  }
 }
 
 .services__slider {
@@ -36,6 +52,10 @@
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 115px;
+  }
 }
 
 .services__item {
@@ -60,6 +80,19 @@
     background: url("../img/icon-predictive.svg") no-repeat;
     background-position: left 24px top 20px;
   }
+
+  @media (min-width: $tablet-width) {
+    min-width: 360px;
+    margin: 16px 10px;
+
+    &--optimizer {
+      margin-left: 20px;
+    }
+
+    &--predictive {
+      margin-right: 20px;
+    }
+  }
 }
 
 .services__para {
@@ -78,5 +111,21 @@
 
   &--predictive {
     padding: 34px 39px 34px 109px;
+  }
+
+  @media (min-width: $tablet-width) {
+    line-height: 24px;
+
+    &--optimizer {
+      padding: 36px 67px 36px 109px;
+    }
+
+    &--management {
+      padding: 22px 98px 26px 109px;
+    }
+
+    &--predictive {
+      padding: 36px 79px 36px 109px;
+    }
   }
 }
