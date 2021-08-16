@@ -1,8 +1,14 @@
 .contact {
   margin-bottom: 194px;
   padding: 162px 27px 0;
-  background: url("../img/contact-bg.png") no-repeat;
+  background: url("../img/contact-bg-mobile.png") no-repeat;
   background-position: left 27px top 391px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 180px;
+    background: url("../img/contact-bg-tablet.png") no-repeat;
+    background-position: left 211px top 459px;
+  }
 }
 
 .contact__text {
@@ -24,10 +30,20 @@
   line-height: 45px;
   font-family: "Inter-Bold";
   color: #000000;
+
+  @media (min-width: $tablet-width) {
+    margin: 16px 178px 0;
+    font-size: 42px;
+    line-height: 59px;
+  }
 }
 
 .contact__form {
   margin-top: 426px;
+
+  @media (min-width: $tablet-width) {
+    margin: 490px 207px 0;
+  }
 }
 
 .contact__item {
@@ -35,6 +51,10 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 16px;
+  }
 }
 
 .contact__label {
@@ -43,6 +63,11 @@
   line-height: 21px;
   font-family: "Inter-Regular";
   color: #262B35;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 14px;
+    line-height: 19px;
+  }
 }
 
 .contact__input {
@@ -61,6 +86,10 @@
     border-radius: 3px;
     font-family: "Inter-Regular";
     color:#CCCCCC;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 12px;
   }
 }
 
@@ -99,4 +128,10 @@
   border-radius: 3px;
   border: none;
   outline: none;
+
+  @media (min-width: $tablet-width) {
+    padding: 13px 0;
+    font-size: 15px;
+    line-height: 18px;
+  }
 }
