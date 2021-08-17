@@ -1,17 +1,44 @@
 .info {
   margin-bottom: 32px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 97px 32px;
+  }
+}
+
+.info__wrap {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .info__container {
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    text-align: left;
+  }
 }
 
 .info__title {
-  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 47px;
+  font-family: "Inter-SemiBold";
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 48px;
+  }
 }
 
 .info__list {
   margin-bottom: 63px;
+
+  @media (min-width: $tablet-width) {
+    width: 220px;
+    margin-bottom: 48px;
+  }
 }
 
 .info__link {
@@ -25,25 +52,53 @@
     font-family: "Inter-SemiBold";
     color: #1C57C9;
   }
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 48px;
+  }
 }
 
 .info__link--social {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: $tablet-width) {
+    justify-content: flex-start;
+  }
 }
 
 .info__img {
   margin-right: 16px;
+
+  &--fb {
+    width: 26px;
+    height: 26px;
+  }
+
+  &--tw {
+    width: 30px;
+    height: 24px;
+  }
+
+  &--inst {
+    width: 28px;
+    height: 28px;
+  }
 }
 
 .info__copyright {
-  text-align: center;
-}
-
-.info__para {
   font-size: 18px;
-  line-height: 27px;
+  line-height: 47px;
   font-family: "Inter-Regular";
+  text-align: center;
   color: #606C84;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 48px;
+  }
 }
