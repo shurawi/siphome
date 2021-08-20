@@ -26,6 +26,21 @@
     background: url("../img/header-bg-oval-mobile.svg") no-repeat, url("../img/header-dot-bg-tablet.png") no-repeat, url("../img/header-bg-tablet.jpg") no-repeat;
     background-position: top 15px left 411px, bottom 6px left 0, left 0 top 0;
   }
+
+  @media (min-width: $desktop-width) {
+    height: 840px;
+    padding: 0 119px;
+    background: url("../img/header-pic1-desktop.png") no-repeat,  url("../img/header-pic2-desktop.png") no-repeat,  url("../img/header-dot-bg-desktop.svg") no-repeat, url("../img/header-bg-oval-mobile.svg") no-repeat, url("../img/header-bg-desktop.png") no-repeat;
+    background-position: bottom -60px right 0, top 100px right 75px, bottom 0 left 0, top 0 left 79.5%, top 0 left 0;
+  }
+}
+
+.header__navigation {
+  @media (min-width: $desktop-width) {
+    padding: 36px 0 16px;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .header__controls {
@@ -38,6 +53,11 @@
   @media (min-width: $tablet-width) {
     margin: 0 30px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 96px 0 0;
+    padding: 0;
+  }
 }
 
 .header__logo {
@@ -46,6 +66,10 @@
   text-decoration: none;
   font-family: "Inter-Bold";
   color: #000000;
+
+  @media (min-width: $desktop-width) {
+    width: 167px;
+  }
 }
 
 .header__img--openMenu {
@@ -66,6 +90,10 @@
   line-height: 18px;
   font-family: "Inter-Bold";
   border-radius: 3px;
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
 }
 
 .header__control--close {
@@ -88,14 +116,29 @@
   display: none;
 }
 
+.header__nav {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    align-items: center;
+  }
+}
+
 .header__list {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+  }
 }
 
 .header__item {
   margin-top: 42px;
+
+  @media (min-width: $desktop-width) {
+    margin: 0 42px 0 0;
+  }
 }
 
 .header__link {
@@ -104,11 +147,50 @@
   text-decoration: none;
   font-family: "Inter-Regular";
   color: #606C84;
+
+  @media (min-width: $desktop-width) {
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+  }
 }
 
 .header__link--active {
   font-family: "Inter-Bold";
   color: #1C57C9;
+}
+
+.header__sign {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    margin-left: 262px;
+  }
+}
+
+.header__check {
+  @media (min-width: $desktop-width) {
+    padding: 10px 24px;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: "Inter-Bold";
+    color: #262B35;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+
+    &--active {
+      color: #1ECE7A;
+      border-left: 1px solid #262B35;
+    }
+  }
+}
+
+.header__inscription {
+  @media (min-width: $desktop-width) {
+    width: 600px;
+  }
 }
 
 .header__text--openMenu {
@@ -123,7 +205,11 @@
 
   @media (min-width: $tablet-width) {
     margin: 60px 118px 0 76px;
+  }
 
+  @media (min-width: $desktop-width) {
+    margin: 96px 0 0 0;
+    text-align: left;
   }
 }
 
@@ -136,6 +222,10 @@
     margin: 0 20px;
     font-size: 55px;
     line-height: 72px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
   }
 }
 
@@ -164,6 +254,10 @@
   margin: 64px 37px 0 36px;
   display: flex;
   justify-content: space-between;
+
+  @media (min-width: $desktop-width) {
+    justify-content: flex-start;
+  }
 }
 
 .header__buttons--openMenu {
@@ -171,6 +265,10 @@
 
   @media (min-width: $tablet-width) {
     margin: 0 281px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
   }
 }
 
@@ -182,6 +280,10 @@
   color: #1ECE7A;
   border: 1px solid #1ECE7A;
   border-radius: 3px;
+
+  @media (min-width: $desktop-width) {
+    margin-right: 16px;
+  }
 }
 
 .header__btn--active {

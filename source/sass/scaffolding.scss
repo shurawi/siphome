@@ -68,6 +68,10 @@ img {
   @media (min-width: $tablet-width) {
     width: 834px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 1440px;
+  }
 }
 
 .visually-hidden {
