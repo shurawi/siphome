@@ -29,6 +29,7 @@
 
   @media (min-width: $desktop-width) {
     height: 840px;
+    margin: 0;
     padding: 0 119px;
     background: url("../img/header-pic1-desktop.png") no-repeat,  url("../img/header-pic2-desktop.png") no-repeat,  url("../img/header-dot-bg-desktop.svg") no-repeat, url("../img/header-bg-oval-mobile.svg") no-repeat, url("../img/header-bg-desktop.png") no-repeat;
     background-position: bottom -60px right 0, top 100px right 75px, bottom 0 left 0, top 0 left 79.5%, top 0 left 0;

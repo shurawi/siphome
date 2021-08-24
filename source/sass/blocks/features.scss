@@ -8,6 +8,12 @@
     background: url("../img/features-dot-tablet.svg") no-repeat;
     background-position: top 110px right 4px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 182px 119px 0;
+    background: url("../img/features-dot-desktop.svg") no-repeat;
+    background-position: top -29px right 0;
+  }
 }
 
 .features__promo {
@@ -22,6 +28,18 @@
     font-size: 20px;
     line-height: 32px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 265px 0 0;
+    text-align: left;
+  }
+}
+
+.feature__container {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .features__pic {
@@ -29,6 +47,17 @@
 
   @media (min-width: $tablet-width) {
     margin-top: 96px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 457px;
+    margin: 203px 85px 0 0;
+  }
+}
+
+.features__info {
+  @media (min-width: $desktop-width) {
+    width: 658px;
   }
 }
 
@@ -38,6 +67,10 @@
 
   @media (min-width: $tablet-width) {
     margin: 96px 20px 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
   }
 }
 
@@ -61,6 +94,10 @@
     font-size: 42px;
     line-height: 59px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 16px;
+  }
 }
 
 .features__para {
@@ -69,12 +106,20 @@
   line-height: 29px;
   font-family: "Inter-Regular";
   color: #606C84;
+
+  @media (min-width: $desktop-width) {
+    margin-top: 24px;
+  }
 }
 
 .features__list {
   @media (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 60px;
   }
 }
 
@@ -110,6 +155,36 @@
       margin-right: 20px;
     }
   }
+
+  @media (min-width: $desktop-width) {
+    width: 324px;
+    margin: 0 0 36px ;
+    text-align: left;
+
+    &:not(:nth-child(2n)) {
+      margin-right: 0;
+    }
+
+    &--automatic {
+      background: url("../img/icon-automatic.svg") no-repeat;
+      background-position: top 0 left 0;
+    }
+
+    &--diagnostics {
+      background: url("../img/icon-diagnostics.svg") no-repeat;
+      background-position: top 0 left 0;
+    }
+
+    &--disaster {
+      background: url("../img/icon-disaster.svg") no-repeat;
+      background-position: top 0 left 0;
+    }
+
+    &--service {
+      background: url("../img/icon-service.svg") no-repeat;
+      background-position: top 0 left 0;
+    }
+  }
 }
 
 .features__title {
@@ -128,5 +203,10 @@
 
   @media (min-width: $tablet-width) {
     margin: 16px 26px 23px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 16px 0 0;
+    padding-bottom: 0;
   }
 }
