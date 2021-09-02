@@ -10,10 +10,32 @@
     background: url("../img/contact-bg-tablet.png") no-repeat;
     background-position: left 211px top 459px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 189px;
+    padding: 182px 314px 0 119px;
+    display: flex;
+    background: url("../img/contact-bg-tablet.png") no-repeat;
+    background-position: left 119px top 472px;
+  }
 }
 
 .contact__text {
   text-align: center;
+
+  &.br {
+    display: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 33px;
+    padding-right: 163px;
+    text-align: left;
+
+    &.br {
+      display: initial;
+    }
+  }
 }
 
 .contact__span {
@@ -37,6 +59,11 @@
     font-size: 42px;
     line-height: 59px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    letter-spacing: -0.02em;
+  }
 }
 
 .contact__form {
@@ -44,6 +71,11 @@
 
   @media (min-width: $tablet-width) {
     margin: 490px 207px 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 420px;
+    margin: 0;
   }
 }
 
@@ -134,5 +166,9 @@
     padding: 13px 0;
     font-size: 15px;
     line-height: 18px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 148px;
   }
 }
