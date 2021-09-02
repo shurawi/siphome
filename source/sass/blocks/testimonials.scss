@@ -1,6 +1,10 @@
 .testimonials {
   padding-bottom: 199px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) -9.97%, #ECF0F7 100%);
+
+  @media (min-width: $desktop-width) {
+    padding: 0 131px 251px 112px;
+  }
 }
 
 .testimonials__text {
@@ -28,6 +32,10 @@
     font-size: 42px;
     line-height: 59px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 17px 311px 0 330px;
+  }
 }
 
 .testimonials__slider {
@@ -38,6 +46,13 @@
 
   @media (min-width: $tablet-width) {
     margin-top: 108px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 80px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-x: hidden;
   }
 }
 
@@ -71,6 +86,22 @@
 
     &:last-child {
       margin-right: 64px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 555px;
+    margin: 10px 0 0;
+    background-color: #ffffff;
+    box-shadow: none;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      display: none;
+      margin-right: 0;
     }
   }
 }
