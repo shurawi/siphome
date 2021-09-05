@@ -86,3 +86,11 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.footer {
+  @media (min-width: $desktop-width) {
+    position: relative;
+    padding: 0 135px 154px 119px;
+    display: flex;
+  }
+}

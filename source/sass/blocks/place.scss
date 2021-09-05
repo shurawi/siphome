@@ -6,6 +6,11 @@
     margin: 0 97px 63px;
     text-align: left;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 76px 0 0;
+    padding-right: 40px;
+  }
 }
 
 .place__img {
