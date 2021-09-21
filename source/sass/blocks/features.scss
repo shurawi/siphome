@@ -1,17 +1,17 @@
 .features {
   margin-bottom: 224px;
-  padding: 62px 27px 0;
+  padding: 62px 8% 0;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 168px;
-    padding: 60px 76px 0;
+    padding: 60px 9% 0;
     background: url("../img/features-dot-tablet.svg") no-repeat;
     background-position: top 110px right 4px;
   }
 
   @media (min-width: $desktop-width) {
     margin-bottom: 182px;
-    padding: 182px 119px 0;
+    padding: 182px 8% 0;
     background: url("../img/features-dot-desktop.svg") no-repeat;
     background-position: top -29px right 0;
   }
@@ -47,18 +47,18 @@
   margin-top: 60px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 96px;
+    margin: 96px 20% 0;
   }
 
   @media (min-width: $desktop-width) {
-    width: 457px;
-    margin: 203px 85px 0 0;
+    width: 32%;
+    margin: 203px 6% 0 0;
   }
 }
 
 .features__info {
   @media (min-width: $desktop-width) {
-    width: 658px;
+    width: 54%;
   }
 }
 
@@ -67,7 +67,7 @@
   text-align: center;
 
   @media (min-width: $tablet-width) {
-    margin: 96px 20px 60px;
+    margin: 96px 2% 60px;
   }
 
   @media (min-width: $desktop-width) {
@@ -117,6 +117,7 @@
   @media (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   @media (min-width: $desktop-width) {
@@ -149,16 +150,16 @@
   }
 
   @media (min-width: $tablet-width) {
-    width: 331px;
+    width: 48%;
     margin-bottom: 36px;
 
     &:not(:nth-child(2n)) {
-      margin-right: 20px;
+      margin-right: 2%;
     }
   }
 
   @media (min-width: $desktop-width) {
-    width: 324px;
+    width: 49%;
     margin: 0 0 36px ;
     text-align: left;
 

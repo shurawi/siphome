@@ -24,13 +24,13 @@
 }
 
 .header__container--openMenu {
-  background: url("../img/header-dot-bg-open-mobile.svg") no-repeat, url("../img/header-bg-mobile.jpg") no-repeat, rgba(96, 108, 132, 1);
-  background-position: bottom -6px left 0, bottom 72px left 0, 0;
+  background: url("../img/header-dot-bg-open-mobile.svg") no-repeat, url("../img/header-bg-desktop.png") no-repeat, rgba(96, 108, 132, 1);
+  background-position: bottom -6px left 0, bottom 72px left 50%, 0;
   background-blend-mode: multiply;
 
   @media (min-width: $tablet-width) {
-    background: url("../img/header-dot-bg-open-tablet.svg") no-repeat, url("../img/header-bg-tablet.jpg") no-repeat, rgba(96, 108, 132, 1);
-    background-position: bottom 6px left 0, left 0 top 0;
+    background: url("../img/header-dot-bg-open-tablet.svg") no-repeat, url("../img/header-bg-desktop.png") no-repeat, rgba(96, 108, 132, 1);
+    background-position: bottom 6px left 0, bottom 0 left 0;
     background-blend-mode: multiply;
   }
 }
