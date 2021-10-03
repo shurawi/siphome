@@ -1,5 +1,6 @@
 .services {
   margin-bottom: 215px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) -9.97%, #ECF0F7 100%);
 
   @media (min-width: $tablet-width) {
     margin-bottom: 300px;
@@ -8,7 +9,7 @@
   @media (min-width: $desktop-width) {
     margin: 0;
     padding: 0 160px 182px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) -9.97%, #ECF0F7 100%);
+
   }
 }
 
@@ -26,21 +27,21 @@
 }
 
 .services__head {
-  margin: 13px 28px 0;
+  margin: 13px 8% 0;
   font-size: 32px;
   line-height: 45px;
   font-family: "Inter-Bold";
   color: #000000;
 
   @media (min-width: $tablet-width) {
-    margin: 16px 135px 0;
+    margin: 16px 16% 0;
     font-size: 42px;
     line-height: 59px;
   }
 }
 
 .services__title {
-  margin: 24px 28px 64px;
+  margin: 24px 8% 64px;
   font-size: 18px;
   line-height: 29px;
   font-family: "Inter-Regular";
@@ -56,18 +57,21 @@
 }
 
 .services__pic {
+  margin: 0 8%;
+
   @media (min-width: $tablet-width) {
-    margin: 0 101px 0 59px;
+    margin: 0 12% 0 7%;
   }
 
   @media (min-width: $desktop-width) {
-    margin: 0 244px 0 202px
+    margin: 0 17% 0 14%;
   }
 }
 
 .services__slider {
-  margin-top: 84px;
+  margin: 84 auto;
   display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
   overflow-x: auto;
 
@@ -110,7 +114,7 @@
   }
 
   @media (min-width: $tablet-width) {
-    min-width: 360px;
+    width: 360px;
     margin: 16px 10px;
 
     &--optimizer {
