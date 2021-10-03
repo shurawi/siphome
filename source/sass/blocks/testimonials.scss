@@ -3,7 +3,7 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) -9.97%, #ECF0F7 100%);
 
   @media (min-width: $desktop-width) {
-    padding: 0 131px 251px 112px;
+    padding: 0 9% 251px 8%;
   }
 }
 
@@ -21,20 +21,20 @@
 }
 
 .testimonials__head {
-  margin: 13px 28px 0;
+  margin: 13px 8% 0;
   font-size: 32px;
   line-height: 45px;
   font-family: "Inter-Bold";
   color: #000000;
 
   @media (min-width: $tablet-width) {
-    margin: 16px 195px 0;
+    margin: 16px 23% 0;
     font-size: 42px;
     line-height: 59px;
   }
 
   @media (min-width: $desktop-width) {
-    margin: 17px 311px 0 330px;
+    margin: 17px 22% 0 23%;
   }
 }
 
@@ -46,12 +46,13 @@
 
   @media (min-width: $tablet-width) {
     margin-top: 108px;
+    align-items: center;
   }
 
   @media (min-width: $desktop-width) {
     margin-top: 80px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     overflow-x: hidden;
   }
 }
@@ -97,6 +98,7 @@
 
     &:first-child {
       margin-left: 0;
+      margin-right: 4%;
     }
 
     &:last-child {
