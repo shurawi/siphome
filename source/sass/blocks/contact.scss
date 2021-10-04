@@ -1,22 +1,22 @@
 .contact {
   margin-bottom: 194px;
-  padding: 162px 27px 0;
+  padding: 162px 8% 0;
   background: url("../img/contact-bg-mobile.png") no-repeat;
-  background-position: left 27px top 391px;
+  background-position: left 50% top 391px;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 240px;
     padding-top: 180px;
     background: url("../img/contact-bg-tablet.png") no-repeat;
-    background-position: left 211px top 459px;
+    background-position: left 50% top 459px;
   }
 
   @media (min-width: $desktop-width) {
     margin-bottom: 189px;
-    padding: 182px 314px 0 119px;
+    padding: 182px 22% 0 8%;
     display: flex;
     background: url("../img/contact-bg-tablet.png") no-repeat;
-    background-position: left 119px top 472px;
+    background-position: left 11% top 472px;
   }
 }
 
@@ -29,7 +29,7 @@
 
   @media (min-width: $desktop-width) {
     padding-top: 33px;
-    padding-right: 163px;
+    padding-right: 14%;
     text-align: left;
 
     &.br {
@@ -67,10 +67,14 @@
 }
 
 .contact__form {
-  margin-top: 426px;
+  min-width: 320px;
+  max-width: 424px;
+  margin: 426px auto 0;
 
   @media (min-width: $tablet-width) {
-    margin: 490px 207px 0;
+    min-width: 424px;
+    max-width: 74%;
+    margin: 490px auto 0;
   }
 
   @media (min-width: $desktop-width) {
