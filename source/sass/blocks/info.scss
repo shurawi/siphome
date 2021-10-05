@@ -1,12 +1,8 @@
 .info {
   margin-bottom: 32px;
 
-  @media (min-width: $tablet-width) {
-    margin: 0 97px 32px;
-  }
-
   @media (min-width: $desktop-width) {
-    margin: 0;
+    width: 50%;
   }
 }
 
@@ -40,7 +36,6 @@
   margin-bottom: 63px;
 
   @media (min-width: $tablet-width) {
-    width: 220px;
     margin-bottom: 48px;
   }
 }

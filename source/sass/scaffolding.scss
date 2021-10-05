@@ -93,9 +93,12 @@ button {
 }
 
 .footer {
+  padding:  0 8%;
+
   @media (min-width: $desktop-width) {
     position: relative;
-    padding: 0 135px 154px 119px;
+    padding: 0 9% 154px 8%;
     display: flex;
+    justify-content: space-between;
   }
 }
