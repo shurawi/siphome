@@ -44,7 +44,7 @@
   font-family: "Inter-Bold";
   text-transform: uppercase;
   letter-spacing: 0.6em;
-  color: #1C57C9;
+  color: #1c57c9;
 }
 
 .contact__head {
@@ -99,7 +99,7 @@
   font-size: 16px;
   line-height: 21px;
   font-family: "Inter-Regular";
-  color: #262B35;
+  color: #262b35;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 14px;
@@ -114,15 +114,15 @@
   line-height: 24px;
   border-radius: 3px;
   font-family: "Inter-Regular";
-  color:#CCCCCC;
-  border: 1px solid #CCCCCC;
+  color:#000000;
+  border: 1px solid #cccccc;
 
   &::placeholder {
     font-size: 18px;
     line-height: 24px;
     border-radius: 3px;
     font-family: "Inter-Regular";
-    color:#CCCCCC;
+    color:#cccccc;
   }
 
   @media (min-width: $tablet-width) {
@@ -136,8 +136,8 @@
   line-height: 24px;
   border-radius: 3px;
   font-family: "Inter-Regular";
-  color:#CCCCCC;
-  border: 1px solid #CCCCCC;
+  color:#cccccc;
+  border: 1px solid #cccccc;
 }
 
 .contact__textarea {
@@ -146,8 +146,8 @@
   line-height: 24px;
   border-radius: 3px;
   font-family: "Inter-Regular";
-  color:#CCCCCC;
-  border: 1px solid #CCCCCC;
+  color:#cccccc;
+  border: 1px solid #cccccc;
   resize: none;
 }
 
@@ -161,18 +161,36 @@
   font-family: "Inter-Bold";
   text-align: center;
   color:#ffffff;
-  background-color: #1ECE7A;
+  background-color: #1ece7a;
   border-radius: 3px;
   border: none;
   outline: none;
+
+  &:hover,
+  &:focus {
+    padding: 10px 0 11px 0;
+    color: #1ece7a;
+    background-color: #ffffff;
+    border: 1px solid #1ece7a;
+  }
 
   @media (min-width: $tablet-width) {
     padding: 13px 0;
     font-size: 15px;
     line-height: 18px;
+
+    &:hover,
+    &:focus {
+      padding: 12px;
+    }
   }
 
   @media (min-width: $desktop-width) {
     width: 148px;
+
+    &:hover,
+    &:focus {
+      box-shadow: 0px 0px 35px rgba(30, 206, 122, 1);
+    }
   }
 }

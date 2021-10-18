@@ -1,6 +1,6 @@
 .testimonials {
   padding-bottom: 199px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) -9.97%, #ECF0F7 100%);
+  /*background: linear-gradient(180deg, rgba(255, 255, 255, 0) -9.97%, #ECF0F7 100%);*/
 
   @media (min-width: $desktop-width) {
     padding: 0 9% 251px 8%;
@@ -17,7 +17,7 @@
   font-family: "Inter-Bold";
   text-transform: uppercase;
   letter-spacing: 0.6em;
-  color: #1C57C9;
+  color: #1c57c9;
 }
 
 .testimonials__head {
@@ -149,7 +149,7 @@
   font-size: 18px;
   line-height: 27px;
   font-family: "Inter-Bold";
-  color: #262B35;
+  color: #262b35;
 
   @media (min-width: $tablet-width) {
     line-height: 24px;
@@ -163,7 +163,7 @@
   line-height: 23px;
   font-family: "Inter-Regular";
   font-style: normal;
-  color: #606C84;
+  color: #606c84;
 
   @media (min-width: $tablet-width) {
     margin: 11px 0 33px;

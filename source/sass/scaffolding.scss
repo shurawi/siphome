@@ -12,6 +12,10 @@ body {
   overflow-x: hidden;
 }
 
+.gradient {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) -9.97%, #ecf0f7 100%);
+}
+
 h2,
 h3,
 p {

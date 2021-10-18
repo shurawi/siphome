@@ -45,11 +45,11 @@
   line-height: 47px;
   font-family: "Inter-Regular";
   text-decoration: none;
-  color: #606C84;
+  color: #606c84;
 
   &:hover {
-    font-family: "Inter-SemiBold";
-    color: #1C57C9;
+    font-family: "Inter-Regular";
+    color: #1c57c9;
   }
 
   @media (min-width: $tablet-width) {
@@ -92,7 +92,7 @@
   line-height: 47px;
   font-family: "Inter-Regular";
   text-align: center;
-  color: #606C84;
+  color: #606c84;
 
   @media (min-width: $tablet-width) {
     display: flex;

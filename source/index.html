@@ -8,7 +8,7 @@
     <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body>
-    <header class="header header--closeMenu">
+    <header class="header header--closeMenu" id="home">
       <div class="header__container header__container--closeMenu">
         <div class="header__navigation">
           <nav class="header__controls">
@@ -22,16 +22,16 @@
           <nav class="header__nav header__nav--closeMenu">
             <ul class="header__list">
               <li class="header__item">
-                <a class="header__link header__link--active" href="#">Home</a>
+                <a class="header__link" href="#">Home</a>
               </li>
               <li class="header__item">
-                <a class="header__link" href="#">Features</a>
+                <a class="header__link" href="#features">Features</a>
               </li>
               <li class="header__item">
-                <a class="header__link" href="#">Services</a>
+                <a class="header__link" href="#services">Services</a>
               </li>
               <li class="header__item">
-                <a class="header__link" href="#">Contact</a>
+                <a class="header__link" href="#contact">Contact</a>
               </li>
               <li class="header__item">
                 <a class="header__link" href="#">FAQ</a>
@@ -57,157 +57,159 @@
       </div>
     </header>
     <main>
-      <section class="features">
-        <p class="features__promo">Every day your home faces countless potential threats. Every day you face countless potential headaches. A small problem can become a major disaster. Early warning signs exist but often you can't hear or see them.</p>
-        <div class="feature__container">
-          <div class="features__pic">
+      <div class="gradient">
+        <section class="features">
+          <p class="features__promo">Every day your home faces countless potential threats. Every day you face countless potential headaches. A small problem can become a major disaster. Early warning signs exist but often you can't hear or see them.</p>
+          <div class="feature__container">
+            <div class="features__pic">
+              <picture>
+                <source srcset="img/promo-img-desktop.png" media="(min-width: 1440px)">
+                <source srcset="img/promo-img-tablet.png" media="(min-width: 834px)">
+                <img class="features__img" src="img/promo-img-mobile.png" width="320" height="320" alt="">
+              </picture>
+            </div>
+            <div class="features__info" id="features">
+              <div class="features__text">
+                <span class="features__span">features</span>
+                <h2 class="features__head">Meet Siphome</h2>
+                <p class="features__para">The most comprehensive smart solution to home maintenance. All it takes is a simple and affordable sensor installation by one of our Siphome certified technicians.</p>
+              </div>
+              <ul class="features__list">
+                <li class="features__item features__item--automatic">
+                  <h3 class="features__title">Automatic Threat Detection</h3>
+                  <p class="features__para features__para--item">Siphome reacts the moment your equipment fails, alerting you to the problem.</p>
+                </li>
+                <li class="features__item features__item--diagnostics">
+                  <h3 class="features__title">Smart Diagnostics</h3>
+                  <p class="features__para features__para--item">See exactly what is malfunctioning and compare your maintenance options on the same screen.</p>
+                </li>
+                <li class="features__item features__item--disaster">
+                  <h3 class="features__title">Disaster Prevention</h3>
+                  <p class="features__para features__para--item">Predictive analytics lets you see what needs maintenance before it fails.</p>
+                </li>
+                <li class="features__item features__item--service">
+                  <h3 class="features__title">24/7 Service​</h3>
+                  <p class="features__para features__para--item">Siphome monitors your critical systems 24/7 so you can enjoy peace of mind.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="update">
+          <div class="update__text">
+            <span class="update__span">UPDATE</span>
+            <h2 class="update__head">It starts with an upgrade</h2>
+          </div>
+          <ul class="update__list">
+            <li class="update__item update__item--monitor">
+              <h3 class="update__title">Monitor</h3>
+              <p class="update__para update__para--monitor">Make your standard systems smart with Siphome. A simple installation or integration and we can start to monitor 24/7 to make sure your home is Siphome.</p>
+            </li>
+            <li class="update__item update__item--maintenance">
+              <h3 class="update__title">Maintenance</h3>
+              <p class="update__para update__para--maintenance">Siphome helps you maintain your home. The HomeHealth Record ensures you have the right information at the right time, and if you aren’t able to do the maintenance yourself, we can connect you to a service pro to help.</p>
+            </li>
+            <li class="update__item update__item--repair">
+              <h3 class="update__title">Repair</h3>
+              <p class="update__para update__para--repair">Siphome empowers you with smart notifications so you can make repairs before they become problems. Notifications provide diagnostics and recommended next actions so you know what to do and have the same information as your service pro.</p>
+            </li>
+            <li class="update__item update__item--replace">
+              <h3 class="update__title">Replace</h3>
+              <p class="update__para update__para--replace">Improve your home over time. Build your next-gen smart home with Siphome’s advice along the way.</p>
+            </li>
+          </ul>
+        </section>
+        <section class="services" id="services">
+          <div class="services__text">
+            <span class="services__span">SERVICES</span>
+            <h2 class="services__head">Bring more systems into the network</h2>
+            <h3 class="services__title">Find out just how far Siphome can lead your home into next-gen intelligence.</h3>
+          </div>
+          <div class="services__pic">
             <picture>
-              <source srcset="img/promo-img-desktop.png" media="(min-width: 1440px)">
-              <source srcset="img/promo-img-tablet.png" media="(min-width: 834px)">
-              <img class="features__img" src="img/promo-img-mobile.png" width="320" height="320" alt="">
+              <source srcset="img/services-img-tablet.png" media="(min-width: 834px)">
+              <img class="services__img" src="img/services-img-mobile.png" width="325" height="287" alt="">
             </picture>
           </div>
-          <div class="features__info">
-            <div class="features__text">
-              <span class="features__span">features</span>
-              <h2 class="features__head">Meet Siphome</h2>
-              <p class="features__para">The most comprehensive smart solution to home maintenance. All it takes is a simple and affordable sensor installation by one of our Siphome certified technicians.</p>
-            </div>
-            <ul class="features__list">
-              <li class="features__item features__item--automatic">
-                <h3 class="features__title">Automatic Threat Detection</h3>
-                <p class="features__para features__para--item">Siphome reacts the moment your equipment fails, alerting you to the problem.</p>
-              </li>
-              <li class="features__item features__item--diagnostics">
-                <h3 class="features__title">Smart Diagnostics</h3>
-                <p class="features__para features__para--item">See exactly what is malfunctioning and compare your maintenance options on the same screen.</p>
-              </li>
-              <li class="features__item features__item--disaster">
-                <h3 class="features__title">Disaster Prevention</h3>
-                <p class="features__para features__para--item">Predictive analytics lets you see what needs maintenance before it fails.</p>
-              </li>
-              <li class="features__item features__item--service">
-                <h3 class="features__title">24/7 Service​</h3>
-                <p class="features__para features__para--item">Siphome monitors your critical systems 24/7 so you can enjoy peace of mind.</p>
-              </li>
-            </ul>
+          <ul class="services__slider">
+            <li class="services__item services__item--optimizer">
+              <p class="services__para services__para--optimizer">Equipment Optimizer</p>
+            </li>
+            <li class="services__item services__item--management">
+              <p class="services__para services__para--two-strings">Mobile Command Management</p>
+            </li>
+            <li class="services__item services__item--predictive">
+              <p class="services__para">Lifecycle Prediction</p>
+            </li>
+            <li class="services__item services__item--guide services__item--desktop-only">
+              <p class="services__para">Troubleshooting Guide</p>
+            </li>
+            <li class="services__item services__item--energy services__item--desktop-only">
+              <p class="services__para">Energy Optimizer</p>
+            </li>
+            <li class="services__item services__item--smart services__item--desktop-only">
+              <p class="services__para">Smart Diagnostics</p>
+            </li>
+            <li class="services__item services__item--scan services__item--desktop-only">
+              <p class="services__para">Vital Equipment Scan</p>
+            </li>
+            <li class="services__item services__item--alerts services__item--desktop-only">
+              <p class="services__para">Smart Alerts</p>
+            </li>
+            <li class="services__item services__item--preventative services__item--desktop-only">
+              <p class="services__para services__para--two-strings">Preventative Maintenance</p>
+            </li>
+          </ul>
+        </section>
+        <section class="testimonials" id="testimonials">
+          <div class="testimonials__text">
+            <span class="testimonials__span">TESTIMONIALS</span>
+            <h2 class="testimonials__head">Let’s see what people says about Siphome</h2>
           </div>
-        </div>
-      </section>
-      <section class="update">
-        <div class="update__text">
-          <span class="update__span">UPDATE</span>
-          <h2 class="update__head">It starts with an upgrade</h2>
-        </div>
-        <ul class="update__list">
-          <li class="update__item update__item--monitor">
-            <h3 class="update__title">Monitor</h3>
-            <p class="update__para update__para--monitor">Make your standard systems smart with Siphome. A simple installation or integration and we can start to monitor 24/7 to make sure your home is Siphome.</p>
-          </li>
-          <li class="update__item update__item--maintenance">
-            <h3 class="update__title">Maintenance</h3>
-            <p class="update__para update__para--maintenance">Siphome helps you maintain your home. The HomeHealth Record ensures you have the right information at the right time, and if you aren’t able to do the maintenance yourself, we can connect you to a service pro to help.</p>
-          </li>
-          <li class="update__item update__item--repair">
-            <h3 class="update__title">Repair</h3>
-            <p class="update__para update__para--repair">Siphome empowers you with smart notifications so you can make repairs before they become problems. Notifications provide diagnostics and recommended next actions so you know what to do and have the same information as your service pro.</p>
-          </li>
-          <li class="update__item update__item--replace">
-            <h3 class="update__title">Replace</h3>
-            <p class="update__para update__para--replace">Improve your home over time. Build your next-gen smart home with Siphome’s advice along the way.</p>
-          </li>
-        </ul>
-      </section>
-      <section class="services">
-        <div class="services__text">
-          <span class="services__span">SERVICES</span>
-          <h2 class="services__head">Bring more systems into the network</h2>
-          <h3 class="services__title">Find out just how far Siphome can lead your home into next-gen intelligence.</h3>
-        </div>
-        <div class="services__pic">
-          <picture>
-            <source srcset="img/services-img-tablet.png" media="(min-width: 834px)">
-            <img class="services__img" src="img/services-img-mobile.png" width="325" height="287" alt="">
-          </picture>
-        </div>
-        <ul class="services__slider">
-          <li class="services__item services__item--optimizer">
-            <p class="services__para services__para--optimizer">Equipment Optimizer</p>
-          </li>
-          <li class="services__item services__item--management">
-            <p class="services__para services__para--two-strings">Mobile Command Management</p>
-          </li>
-          <li class="services__item services__item--predictive">
-            <p class="services__para">Lifecycle Prediction</p>
-          </li>
-          <li class="services__item services__item--guide services__item--desktop-only">
-            <p class="services__para">Troubleshooting Guide</p>
-          </li>
-          <li class="services__item services__item--energy services__item--desktop-only">
-            <p class="services__para">Energy Optimizer</p>
-          </li>
-          <li class="services__item services__item--smart services__item--desktop-only">
-            <p class="services__para">Smart Diagnostics</p>
-          </li>
-          <li class="services__item services__item--scan services__item--desktop-only">
-            <p class="services__para">Vital Equipment Scan</p>
-          </li>
-          <li class="services__item services__item--alerts services__item--desktop-only">
-            <p class="services__para">Smart Alerts</p>
-          </li>
-          <li class="services__item services__item--preventative services__item--desktop-only">
-            <p class="services__para services__para--two-strings">Preventative Maintenance</p>
-          </li>
-        </ul>
-      </section>
-      <section class="testimonials">
-        <div class="testimonials__text">
-          <span class="testimonials__span">TESTIMONIALS</span>
-          <h2 class="testimonials__head">Let’s see what people says about Siphome</h2>
-        </div>
-        <ul class="testimonials__slider">
-          <li class="testimonials__item">
-            <div class="testimonials__pic">
-              <img class="tesimonials__avatar" src="img/testimonials-avatar-1.png" alt="">
-            </div>
-            <figure class="testimonials__quote">
-              <blockquote class="testimonials__blockquote">
-                “We have been waiting on this product and now that we have installed a few. We think it will make the industry by storm.”
-              </blockquote>
-              <figcaption class="testimonals__sign">
-                Ryan Oliver<cite class="testimonals__cite">Design Manager Kiluna</cite>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="testimonials__item">
-            <div class="testimonials__pic">
-              <img class="tesimonials__avatar" src="img/testimonials-avatar-2.png" alt="">
-            </div>
-            <figure class="testimonials__quote">
-              <blockquote class="testimonials__blockquote">
-                “Thank you for introducing me to Siphome! We like how the system gives updates to us and the homeowner as well to give us a real time update on how everything is working.”
-              </blockquote>
-              <figcaption class="testimonals__sign">
-                Gladina Samantha<cite class="testimonals__cite">CEO JobDesk United, LLC</cite>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="testimonials__item">
-            <div class="testimonials__pic">
-              <img class="tesimonials__avatar" src="img/testimonials-avatar-1.png" alt="">
-            </div>
-            <figure class="testimonials__quote">
-              <blockquote class="testimonials__blockquote">
-                “We have been waiting on this product and now that we have installed a few. We think it will make the industry by storm.”
-              </blockquote>
-              <figcaption class="testimonals__sign">
-                Ryan Oliver<cite class="testimonals__cite">Design Manager Kiluna</cite>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </section>
-      <section class="contact">
+          <ul class="testimonials__slider">
+            <li class="testimonials__item">
+              <div class="testimonials__pic">
+                <img class="tesimonials__avatar" src="img/testimonials-avatar-1.png" alt="">
+              </div>
+              <figure class="testimonials__quote">
+                <blockquote class="testimonials__blockquote">
+                  “We have been waiting on this product and now that we have installed a few. We think it will make the industry by storm.”
+                </blockquote>
+                <figcaption class="testimonals__sign">
+                  Ryan Oliver<cite class="testimonals__cite">Design Manager Kiluna</cite>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonials__item">
+              <div class="testimonials__pic">
+                <img class="tesimonials__avatar" src="img/testimonials-avatar-2.png" alt="">
+              </div>
+              <figure class="testimonials__quote">
+                <blockquote class="testimonials__blockquote">
+                  “Thank you for introducing me to Siphome! We like how the system gives updates to us and the homeowner as well to give us a real time update on how everything is working.”
+                </blockquote>
+                <figcaption class="testimonals__sign">
+                  Gladina Samantha<cite class="testimonals__cite">CEO JobDesk United, LLC</cite>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonials__item">
+              <div class="testimonials__pic">
+                <img class="tesimonials__avatar" src="img/testimonials-avatar-1.png" alt="">
+              </div>
+              <figure class="testimonials__quote">
+                <blockquote class="testimonials__blockquote">
+                  “We have been waiting on this product and now that we have installed a few. We think it will make the industry by storm.”
+                </blockquote>
+                <figcaption class="testimonals__sign">
+                  Ryan Oliver<cite class="testimonals__cite">Design Manager Kiluna</cite>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <section class="contact" id="contact">
         <div class="contact__text">
           <span class="contact__span">CONTACT</span>
           <h2 class="contact__head">Skip logging in,<br> get what you need with a few key details</h2>
@@ -247,7 +249,7 @@
     </main>
     <footer class="footer">
       <section class="place">
-        <a class="place__link" href="#">
+        <a class="place__link" href="#home">
           <img class="place__img" src="img/icon-footer-logo.svg" width="148" height="42" alt="">
         </a>
         <h3 class="place__head footer--head">Siphome, LLC</h3>
@@ -263,16 +265,16 @@
             <h3 class="info__title footer--head">Navigation</h3>
             <ul class="info__list">
               <li class="info__item">
-                <a class="info__link" href="#">Home</a>
+                <a class="info__link" href="#home">Home</a>
               </li>
               <li class="info__item">
-                <a class="info__link" href="#">Features</a>
+                <a class="info__link" href="#features">Features</a>
               </li>
               <li class="info__item">
-                <a class="info__link" href="#">Services</a>
+                <a class="info__link" href="#services">Services</a>
               </li>
               <li class="info__item">
-                <a class="info__link" href="#">Testimonials</a>
+                <a class="info__link" href="#testimonials">Testimonials</a>
               </li>
               <li class="info__item">
                 <a class="info__link" href="#">We Care</a>
@@ -286,7 +288,7 @@
             <h3 class="info__title footer--head">About</h3>
             <ul class="info__list">
               <li class="info__item">
-                <a class="info__link" href="#">Contact Us</a>
+                <a class="info__link" href="#contact">Contact Us</a>
               </li>
               <li class="info__item">
                 <a class="info__link" href="#">Privacy & Policy</a>
