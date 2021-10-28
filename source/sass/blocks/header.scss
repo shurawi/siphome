@@ -6,11 +6,11 @@
 }
 
 .header__container--closeMenu {
-  background: url("../img/header-dot-bg-mobile.svg") no-repeat, url("../img/header-bg-desktop.png") no-repeat;
+  background: url("../img/header-dot-bg-mobile.svg") no-repeat, url("../img/header-bg.png") no-repeat;
   background-position: bottom -6px left 0, bottom 72px left 50%;
 
   @media (min-width: $tablet-width) {
-    background: url("../img/header-bg-oval-mobile.svg") no-repeat, url("../img/header-dot-bg-tablet.svg") no-repeat, url("../img/header-bg-desktop.png") no-repeat;
+    background: url("../img/header-bg-oval-mobile.svg") no-repeat, url("../img/header-dot-bg-tablet.svg") no-repeat, url("../img/header-bg.png") no-repeat;
     background-position: top 15px left 100%, bottom 6px left 0, bottom 72px left 0;
   }
 
@@ -18,18 +18,18 @@
     height: 840px;
     margin: 0;
     padding: 0 8%;
-    background: url("../img/header-pic1-desktop.png") no-repeat,  url("../img/header-pic2-desktop.png") no-repeat,  url("../img/header-dot-bg-desktop.svg") no-repeat, url("../img/header-bg-oval-mobile.svg") no-repeat, url("../img/header-bg-desktop.png") no-repeat;
+    background: url("../img/header-pic1-desktop.png") no-repeat,  url("../img/header-pic2-desktop.png") no-repeat,  url("../img/header-dot-bg-desktop.svg") no-repeat, url("../img/header-bg-oval-mobile.svg") no-repeat, url("../img/header-bg.png") no-repeat;
     background-position: bottom -60px right 0, top 100px right 75px, bottom 0 left 0, top 0 left 79.5%, top 0 left 0;
   }
 }
 
 .header__container--openMenu {
-  background: url("../img/header-dot-bg-open-mobile.svg") no-repeat, url("../img/header-bg-desktop.png") no-repeat, rgba(96, 108, 132, 1);
+  background: url("../img/header-dot-bg-open-mobile.svg") no-repeat, url("../img/header-bg.png") no-repeat, rgba(96, 108, 132, 1);
   background-position: bottom -6px left 0, bottom 72px left 50%, 0;
   background-blend-mode: multiply;
 
   @media (min-width: $tablet-width) {
-    background: url("../img/header-dot-bg-open-tablet.svg") no-repeat, url("../img/header-bg-desktop.png") no-repeat, rgba(96, 108, 132, 1);
+    background: url("../img/header-dot-bg-open-tablet.svg") no-repeat, url("../img/header-bg.png") no-repeat, rgba(96, 108, 132, 1);
     background-position: bottom 6px left 0, bottom 72px left 0;
     background-blend-mode: multiply;
   }

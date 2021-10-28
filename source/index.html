@@ -5,6 +5,7 @@
     <title>Siphome</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="format-detection" content="telephone=no">
+    <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
     <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body>
@@ -331,6 +332,52 @@
         </div>
       </section>
     </footer>
+    <div class="popup">
+      <div class="popup__block popup__block--login">
+        <div class="popup__pic">
+          <img class="popup__img" src="img/popup-logo.png" width="42" height="42" alt="">
+        </div>
+        <h2 class="popup__head">Sign in to Siphome</h2>
+        <form class="popup__form" action="index.html" method="post">
+          <div class="popup__item">
+            <label class="popup__label" for="login">Enter your login or e-mail:</label>
+            <input class="popup__input" type="text" name="login" placeholder="Your login" id="login">
+          </div>
+          <div class="popup__item">
+            <label class="popup__label" for="pas">Enter your password:</label>
+            <input class="popup__input" type="text" name="pas" placeholder="Your password" id="pas">
+          </div>
+          <div class="popup__controls">
+            <button class="popup__btn popup__btn--enter" type="button" name="button">Login</button>
+            <button class="popup__btn popup__btn--close" type="button" name="button">Close (X)</button>
+          </div>
+        </form>
+      </div>
+      <div class="popup__block popup__block--reg">
+        <div class="popup__pic">
+          <img class="popup__img" src="img/popup-logo.png" width="42" height="42" alt="">
+        </div>
+        <h2 class="popup__head">Please registry</h2>
+        <form class="popup__form" action="index.html" method="post">
+          <div class="popup__item">
+            <label class="popup__label" for="login">Enter your login or e-mail:</label>
+            <input class="popup__input" type="text" name="login" placeholder="Your login" id="login">
+          </div>
+          <div class="popup__item">
+            <label class="popup__label" for="pas">Enter your password:</label>
+            <input class="popup__input" type="text" name="pas" placeholder="Your password" id="pas">
+          </div>
+          <div class="popup__item">
+            <label class="popup__label" for="pas">Confirm your password</label>
+            <input class="popup__input" type="text" name="pas" placeholder="Your password" id="pas">
+          </div>
+          <div class="popup__controls">
+            <button class="popup__btn popup__btn--reg" type="button" name="button">Registry</button>
+            <button class="popup__btn popup__btn--close" type="button" name="button">Close (X)</button>
+          </div>
+        </form>
+      </div>
+    </div>
     <script src="js/main.js"></script>
   </body>
 </html>
